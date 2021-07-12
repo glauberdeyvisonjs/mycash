@@ -24,6 +24,10 @@ export class LoginComponent implements OnInit {
    this.router.navigate(['/cadastrar-usuario'])
  }
 
+  recoverPassword() {
+    this.router.navigate(['/recuperar-senha'])
+  }
+
  login() {
    if(this.loginForm.valid) {
      localStorage.setItem('token', 'lukeskywalkerdançandopassinhonorecife');

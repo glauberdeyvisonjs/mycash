@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-recuperar-senha',
@@ -7,7 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecuperarSenhaComponent implements OnInit {
 
-  constructor() { }
+  recoverForm = new FormGroup({
+    username: new FormControl('', [Validators.required, Validators.email]),
+    password: new FormControl('', [Validators.required])
+  });
+
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }

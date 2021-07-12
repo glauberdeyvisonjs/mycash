@@ -1,1 +1,30 @@
-<p>recuperar-senha works!</p>
+<section class="section-container">
+    <mat-card class="example-card">
+        <mat-card-title>
+            <span class="logo-span">
+                <img src="../../assets/img/logo.png">
+              </span>
+            <span class="title-page">
+                <H1>Recupere sua Senha</H1>
+            </span>
+        </mat-card-title>
+
+        <mat-card-content>
+            <form class="example-form" [formGroup]="recoverForm">
+                <mat-form-field class="example-full-width">
+                    <mat-label>E-mail:</mat-label>
+                    <input matInputType="username">
+                </mat-form-field>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Senha:</mat-label>
+                    <input matInput type = "password" formControlName="password">
+                  </mat-form-field>
+                  <mat-form-field class="example-full-width">
+                    <mat-label>Confirmar senha:</mat-label>
+                    <input matInput type = "password" formControlName="password">
+                  </mat-form-field>
+            </form>
+        </mat-card-content>
+
+    </mat-card>
+</section>
