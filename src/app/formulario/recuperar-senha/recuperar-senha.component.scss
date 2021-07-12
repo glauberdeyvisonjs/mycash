@@ -1,0 +1,55 @@
+:host{
+    display: flex;
+    justify-content: center;
+    background: #1b38bd; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00934e, #67cf43, #fadf1a);
+    background: linear-gradient(to right, #00934e, #67cf43, #fadf1a);
+  }
+
+  .title-page{
+    justify-content: center;
+    display: flex;
+  }
+
+  .example-card {
+    max-width: 400px;
+  }
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500;
+    width: 100%;
+  }
+
+  .example-full-width {
+    width: 100%;
+  }
+
+  .logo-span{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  img{
+    width: 120px;
+  }
+
+  .container-button-enter{
+    display: inline-block;
+    justify-content: space-around;
+
+    .button-cancel{
+      color: #fff;
+      background-color: #CB2333;
+  }
+
+    .button-save{
+      color:#fff;
+      background-color: #218838;
+  }
+  }
+
+  .section-container{
+    margin: 120px;
+  }

@@ -18,5 +18,9 @@ export class RecuperarSenhaComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  login() {
+    this.router.navigate(['/login'])
+  }
 
 }
