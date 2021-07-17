@@ -7,12 +7,18 @@
         <img src="../../../assets/img/logo.png">
     </span>
 
-    <ul id="desktop">
+    <ul id="desktop" class="main-nav">
         <li>
-            <a routerLink="/relatorio-despesa">Relatório de Despesas</a>
+            <a class="nav-links" routerLink="/dashboard">Dashboard</a>
         </li>
         <li>
-            <a routerLink="relatorio-receita">Relatório de Receitas</a>
+            <a class="nav-links" routerLink="/relatorio-despesa">Relatório de Despesas</a>
+        </li>
+        <li>
+            <a class="nav-links" routerLink="relatorio-receita">Relatório de Receitas</a>
+        </li>
+        <li>
+            <a class="nav-links logout" (click)="logout()"><span>Sair</span> <mat-icon>exit-to-app</mat-icon></a>
         </li>
     </ul>
 </nav>
