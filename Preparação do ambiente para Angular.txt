@@ -1,0 +1,7 @@
+Instalar o Node.js
+
+npm i
+npm install sweetalert2
+npm install angular-material
+npm install -g @angular/cli@9.1.11
+ng add @angular/material
