@@ -15,3 +15,81 @@
         background-color: #C82333;
     }
 }
+
+.container-despesas{
+    height: 50vh;
+    width: 100%;
+    overflow-y: scroll;
+
+    table{
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        table-layout: fixed;
+    }
+    
+    table tr{
+        border-collapse: 1px solid #ddd;
+    }
+
+    table th, table td{
+        padding: .625em;
+        text-align: center;
+    }
+
+    table th{
+        font-size: .85em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+
+    table td{
+        text-transform: uppercase;
+    }
+
+    thead tr{
+        background: #C82333;
+        color: #fff;
+    }
+}
+
+.container-receitas{
+    height: 50vh;
+    width: 100%;
+    overflow-y: scroll;
+
+    table{
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        table-layout: fixed;
+    }
+    
+    table tr{
+        border-collapse: 1px solid #ddd;
+    }
+
+    table th, table td{
+        padding: .625em;
+        text-align: center;
+    }
+
+    table th{
+        font-size: .85em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+
+    table td{
+        text-transform: uppercase;
+    }
+
+    thead tr{
+        background: #007BFF;
+        color: #fff;
+    }
+}
